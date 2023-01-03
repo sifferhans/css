@@ -1,0 +1,25 @@
+{
+  "name": "@sigveh/css",
+  "version": "1.0.0",
+  "description": "A simple CSS Reset and base styles, for a clean start to every project.",
+  "main": "reset.css",
+  "type": "module",
+  "exports": {
+    ".": "./reset.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sifferhans/css.git"
+  },
+  "keywords": [
+    "css",
+    "reset",
+    "styling"
+  ],
+  "author": "Sigve Hansen (https://github.com/sifferhans)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sifferhans/css/issues"
+  },
+  "homepage": "https://github.com/sifferhans/css#readme"
+}
