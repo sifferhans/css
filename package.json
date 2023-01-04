@@ -1,6 +1,6 @@
 {
   "name": "@sigveh/css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple CSS Reset and base styles, for a clean start to every project.",
   "main": "src/index.css",
   "type": "module",
