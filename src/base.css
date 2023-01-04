@@ -1,0 +1,87 @@
+:where(:root) {
+  --border-radius: 4px;
+  --border-color: #808080;
+}
+
+/* Typography */
+:where(p) {
+  margin-block: 1rem;
+}
+
+:where(h1) {
+  margin-block: 2rem;
+}
+
+:where(h2) {
+  margin-block: 1.5rem 1rem;
+}
+
+:where(h3) {
+  margin-block: 1rem 0.5rem;
+}
+
+:where(ul) {
+  list-style: disc;
+  padding-inline-start: 1rem;
+}
+
+:where(ol) {
+  list-style: numeric;
+  padding-inline-start: 1rem;
+}
+
+:where(blockquote) {
+  margin-block: 1rem;
+  padding-inline: 1rem;
+  border-inline-start: 4px solid var(--border-color);
+}
+
+:where(a) {
+  color: initial;
+}
+
+/* Tables */
+:where(table) {
+}
+
+:where(td, th) {
+  padding: 0.5rem 0;
+}
+
+:where(tr) {
+  border-block-end: 1px solid var(--border-color);
+}
+
+/* Forms */
+
+:where(input:not([type='color']), textarea, select) {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+}
+
+:where(
+    button,
+    [role='button'],
+    input:is([type='button'], [type='submit'], [type='reset'])
+  ) {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+}
+
+:where(fieldset) {
+  padding: 1rem;
+  border-radius: calc(var(--border-radius) * 2);
+  border: none;
+  border: 1px solid var(--border-color);
+}
+
+/* Other */
+
+:where(kbd) {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 0px var(--border-color);
+}

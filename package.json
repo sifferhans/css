@@ -2,10 +2,12 @@
   "name": "@sigveh/css",
   "version": "1.0.0",
   "description": "A simple CSS Reset and base styles, for a clean start to every project.",
-  "main": "reset.css",
+  "main": "src/index.css",
   "type": "module",
   "exports": {
-    ".": "./reset.css"
+    ".": "./src/index.css",
+    "./reset": "./src/reset.css",
+    "./base": "./src/base.css"
   },
   "repository": {
     "type": "git",

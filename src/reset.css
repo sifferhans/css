@@ -35,7 +35,7 @@
 :where(body) {
   block-size: 100%;
   block-size: 100dvb;
-  line-height: 1.5;
+  line-height: 1.6;
   font-family: system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -74,7 +74,7 @@
   list-style: none;
 }
 
-:where(img, svg, video, canvas, audio, iframe, embed, object) {
+:where(img, svg, video, canvas, audio, iframe, embed, object, blockquote) {
   display: block;
 }
 
@@ -97,6 +97,10 @@
   color: inherit;
   block-size: 0;
   overflow: visible;
+}
+
+:where(table) {
+  border-collapse: collapse;
 }
 
 :where(:focus-visible) {

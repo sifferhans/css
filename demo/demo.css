@@ -1,0 +1,14 @@
+body {
+  max-width: 80ch;
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem;
+}
+
+.section {
+  margin-block: 2rem;
+}
+
+table {
+  width: 100%;
+}
