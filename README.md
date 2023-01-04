@@ -11,10 +11,21 @@ Install the package via `npm`.
 npm install @sigveh/css
 ```
 
-You can then import the stylesheet in your css file.
+You can then import the stylesheet wherever.
 
 ```css
+/* CSS */
 @import '@sigveh/css';
+```
+
+```js
+/* JS */
+import '@sigveh/css'
+```
+
+```html
+<!-- directly from CDN -->
+<link rel="stylesheet" href="https://unpkg.com/@sigveh/css" />
 ```
 
 ## Customization
