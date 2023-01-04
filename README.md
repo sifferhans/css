@@ -23,8 +23,9 @@ You can then import the stylesheet wherever.
 import '@sigveh/css'
 ```
 
+If you're not using a package manager, you can simply import from a CDN.
+
 ```html
-<!-- directly from CDN -->
 <link rel="stylesheet" href="https://unpkg.com/@sigveh/css" />
 ```
 
