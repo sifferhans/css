@@ -1,7 +1,7 @@
-# @sigveh/css
-
-A simple CSS Reset and base styles, for a clean start to every project.  
-Inspired by [@acab/reset.css](https://github.com/mayank99/reset.css)
+<div align="center"><strong>@sigveh/css</strong></div>
+<div align="center">A simple CSS Reset and base styles, for a clean start to every project.</div>
+<br/>
+<div align="center"><small>Inspired by <a target="_blank" href="https://github.com/mayank99/reset.css" >@acab/reset.css</a></small></div>
 
 ## Usage
 
