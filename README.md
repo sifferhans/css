@@ -1,5 +1,5 @@
 <div align="center"><strong>@sigveh/css</strong></div>
-<div align="center">A simple CSS Reset and base styles, for a clean start to every project.</div>
+<div align="center">A modern CSS Reset and base styles.</div>
 <br/>
 <div align="center"><small>Inspired by <a target="_blank" href="https://github.com/mayank99/reset.css" >@acab/reset.css</a></small></div>
 
@@ -28,6 +28,10 @@ If you're not using a package manager, you can simply import from a CDN.
 ```html
 <link rel="stylesheet" href="https://unpkg.com/@sigveh/css" />
 ```
+
+## Dark mode
+
+The CSS reset includes support for both light and dark mode, based on the users preferences.
 
 ## Customization
 
